@@ -1,0 +1,200 @@
+/* src/Dashboard.css */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f5f6f8;
+    margin: 0;
+    color: #222;
+  }
+  
+  .dashboard-container {
+    padding: 24px;
+    min-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  input,
+  button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1e4fd0;
+  }
+  
+  .main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+  }
+  
+  .logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  
+  .logs-table th,
+  .logs-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .logs-table th {
+    background-color: #f1f3f6;
+  }
+  
+  .anomaly-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .anomaly-item {
+    background-color: #fff4f4;
+    border-left: 4px solid #e53935;
+    margin-bottom: 8px;
+    padding: 8px 10px;
+    border-radius: 4px;
+  }
+  
+  .chart-container {
+    height: 250px;
+  }
+  
+  .chat-panel {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message {
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    max-width: 75%;
+  }
+  
+  .chat-message.user {
+    background-color: #e3f2fd;
+    align-self: flex-end;
+  }
+  
+  .chat-message.bot {
+    background-color: #f3f4f6;
+    align-self: flex-start;
+  }
+  
+  .chat-input {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+  }
+  
+/* 🌗 DARK MODE THEME SUPPORT */
+:root {
+    --bg-color: #f5f6f8;
+    --text-color: #222;
+    --card-bg: white;
+    --card-shadow: rgba(0, 0, 0, 0.08);
+    --accent-color: #2563eb;
+  }
+  
+  body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f9f9f9;
+    --card-bg: #1e1e1e;
+    --card-shadow: rgba(255, 255, 255, 0.05);
+    --accent-color: #60a5fa;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* 🧩 Updated common components to use theme vars */
+  .card {
+    background: var(--card-bg);
+    box-shadow: 0 2px 6px var(--card-shadow);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--accent-color);
+  }
+  
+  /* 💫 SHIMMER LOADER */
+  .skeleton {
+    position: relative;
+    background: linear-gradient(
+      90deg,
+      #e0e0e0 25%,
+      #f0f0f0 37%,
+      #e0e0e0 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s ease infinite;
+    border-radius: 6px;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+  
+  .skeleton-line {
+    height: 12px;
+    margin: 6px 0;
+    width: 100%;
+  }
+  
