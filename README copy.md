@@ -292,21 +292,6 @@ This ensures **zero hallucination** and **true log-grounded responses**.
 
 ---
 
-## 👨‍💻 Author
-
-**Biswajeet Raut**  
-*Full Stack & AI Engineer*  
-🚀 Building intelligent backend systems merging LLMs with observability.  
-📧 [biswajeetraut382@gmail.com](mailto:biswajeetraut382@gmail.com)
-
----
-
-## 📜 License
-
-Licensed under the **MIT License** — free to use, modify, and distribute.
-
----
-
 ## ✅ Quick Recap
 
 Anamoli AI is your **self-learning observability assistant** — it:
