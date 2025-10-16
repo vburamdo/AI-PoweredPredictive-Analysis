@@ -85,7 +85,7 @@ export default function Dashboard() {
     return (
         <div className="dashboard-container">
             <header>
-                <h1>Observability Dashboard</h1>
+                <h1>AI-Powered Predictive-Analysis</h1>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                     <input value={tenantId} onChange={(e) => setTenantId(e.target.value)} />
