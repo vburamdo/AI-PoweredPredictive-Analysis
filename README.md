@@ -251,7 +251,7 @@ This ensures **zero hallucination** and **true log-grounded responses**.
 | **Vector Store** | Chroma                                                         |
 | **LLM**          | Groq `llama3-70b-8192`                                         |
 | **Embeddings**   | Sentence Transformers (`all-MiniLM-L6-v2`)                     |
-| **Language**     | Python 3.11, Node.js 18+                                       |
+| **Language**     | Python 3.10, Node.js 18+                                       |
 
 ---
 
