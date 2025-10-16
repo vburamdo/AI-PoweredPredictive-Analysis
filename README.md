@@ -271,16 +271,6 @@ This ensures **zero hallucination** and **true log-grounded responses**.
 
 ---
 
-## 🧭 Future Enhancements
-
-- [ ] Automated log ingestion CRON (every 5 mins)
-- [ ] WebSocket streaming for LLM responses
-- [ ] Multi-tenant analytics dashboard
-- [ ] Integration with Prometheus/Grafana metrics
-- [ ] Enhanced RAG summarization + memory compression
-
----
-
 ## 🧩 API Endpoints Summary
 
 | Method | Endpoint                 | Description                           |
