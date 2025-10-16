@@ -1,6 +1,6 @@
-# 🧠 Anamoli AI — AI-Powered Observability Platform
+# 🧠 AI-Powered Predictive Analysis
 
-**Anamoli AI** is an intelligent observability system that leverages **LLMs (Groq)**, **LangChain**, **RAG (Retrieval-Augmented Generation)**, and **Vector Databases (Chroma)** to analyze logs, detect anomalies, and enable conversational queries about your systems — all integrated with **Firestore** and a **React frontend**.
+**AI-Powered Predictive Analysis** is an intelligent system that leverages **LLMs (Groq)**, **LangChain**, **RAG (Retrieval-Augmented Generation)**, and **Vector Databases (Chroma)** to analyze logs, detect anomalies, and enable conversational queries about your systems — all integrated with **Firestore** and a **React frontend**.
 
 ---
 
@@ -8,7 +8,7 @@
 
 Modern distributed systems produce millions of logs daily. Finding anomalies and understanding root causes manually is slow and error-prone.
 
-**Anamoli AI** automates observability through:
+**AI-Powered Predictive Analysis** automates predictive analysis through:
 
 - 🧩 **AI-powered log parsing and anomaly detection**  
 - 🔍 **Semantic search & RAG-based reasoning**  
@@ -289,21 +289,6 @@ This ensures **zero hallucination** and **true log-grounded responses**.
 | `POST` | `/store_logs`            | Parse, embed, and detect anomalies    |
 | `POST` | `/ask_ai`                | Conversational insights via Groq LLM  |
 | `GET`  | `/analyze`               | Retrieve past anomaly reports         |
-
----
-
-## 👨‍💻 Author
-
-**Biswajeet Raut**  
-*Full Stack & AI Engineer*  
-🚀 Building intelligent backend systems merging LLMs with observability.  
-📧 [biswajeetraut382@gmail.com](mailto:biswajeetraut382@gmail.com)
-
----
-
-## 📜 License
-
-Licensed under the **MIT License** — free to use, modify, and distribute.
 
 ---
 
